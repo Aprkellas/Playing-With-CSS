@@ -29,3 +29,27 @@
 .layer2 {
   background-image: url("background2.svg");
 }
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+
+body {
+  margin: 0px;
+}
+
+#container {
+  width: 80%;
+  height: auto;
+  filter: url(#threshold) blur(0.6px);
+  text-align: center;
+
+  align-items: center;
+}
+
+#text1,
+#text2 {
+  font-family: "Raleway", sans-serif;
+  position: absolute;
+  font-size: 80pt;
+
+  user-select: none;
+}
